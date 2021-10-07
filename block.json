@@ -1,0 +1,29 @@
+{
+	"apiVersion": 2,
+	"name": "avidly-block/dynamic",
+	"version": "0.1.0",
+	"title": "Avidly Dynamic Block",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block based on WordPress Block Editor Handbook, Create a Block Tutorial.",
+	"attributes": {
+        "content": {
+			"type": "array",
+			"source": "children",
+			"selector": "p"
+		}
+    },
+	"supports": {
+		"html": false,
+		"align": [
+			"wide",
+			"full"
+		],
+		"anchor": true,
+		"color": true
+	},
+	"textdomain": "avidly-block-dynamic",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}
