@@ -19,10 +19,6 @@ defined( 'ABSPATH' ) || die( 'No script kiddies please!' );
 // Support for PHP translations.
 load_plugin_textdomain( 'avidly-block-dynamic', false, basename( dirname( __FILE__ ) ) . '/languages' );
 
-// Require PHP files.
-require plugin_dir_path( __FILE__ ) . 'inc/helpers.php';
-
-
 /**
  * Registers the block using the metadata loaded from the `block.json` file.
  * Behind the scenes, it registers also all assets so they can be enqueued

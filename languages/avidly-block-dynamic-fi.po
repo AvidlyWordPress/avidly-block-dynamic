@@ -5,8 +5,8 @@ msgstr ""
 "Project-Id-Version: Avidly Dynamic Block 0.1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/avidly-block-"
 "dynamic\n"
-"POT-Creation-Date: 2021-10-07T13:37:30+00:00\n"
-"PO-Revision-Date: 2021-10-07 16:38+0300\n"
+"POT-Creation-Date: 2021-10-08T10:07:21+00:00\n"
+"PO-Revision-Date: 2021-10-08 13:09+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fi\n"
@@ -35,17 +35,13 @@ msgstr ""
 msgid "https://www.avidlyagency.com/"
 msgstr ""
 
-#: build/index.js:1 src/edit.js:48
+#: build/index.js:1 src/edit.js:48 src/save.js:28
 msgid "Avidly Block – add or edit text below!"
 msgstr "Avidlyn lohko - lisää tai muokkaa tekstiä alla!"
 
 #: build/index.js:1 src/edit.js:55
 msgid "Add your own placeholder text here."
 msgstr "Lisää oma placeholder teksti tähän."
-
-#: build/index.js:1 src/save.js:28
-msgid "Avidly Block – hello from the editor!"
-msgstr "Avidlyn lohko - tervehdys lohkoeditorista!"
 
 #: block.json
 msgctxt "block title"
@@ -58,6 +54,9 @@ msgid ""
 "Example block based on WordPress Block Editor Handbook, Create a Block "
 "Tutorial."
 msgstr "WordPress Block Editor Handbookin mukaisesti rakennettu mallilohko."
+
+#~ msgid "Avidly Block – hello from the editor!"
+#~ msgstr "Avidlyn lohko - tervehdys lohkoeditorista!"
 
 #~ msgid ""
 #~ "This is a dynamic text inside a block and can be overwritten from editor."
