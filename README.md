@@ -16,7 +16,7 @@ Base of mine is created with <a href="https://www.npmjs.com/package/@wordpress/c
 3. Go to plugin folder with terminal: `cd wp-content/plugins/your-plugin-name`
 4. Run `sh setup.sh` and follow the instructions in terminal. This will run some search and replace functionality for code.
 
-Activate them plugin when you are ready.
+Activate the plugin when you are ready.
 
 ## Nice to know
 
