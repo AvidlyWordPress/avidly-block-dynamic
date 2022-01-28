@@ -106,6 +106,7 @@ find "$languagedir" -name '*.json' -type f -exec perl -p -i -e "s|$default_name|
 echo "--> Search & replace name ... ${blue}done${txtreset}"
 
 # PHP files
+find "$basedir_all_files" -type f -name "${default_id}.php" -exec mv -f {} "${basedir_all_files}/${id}.php" \;
 find "$basedir_all_files" -name '*.php' -type f -exec perl -p -i -e "s|$default_id|$id|g" {} \;
 
 # JS files
