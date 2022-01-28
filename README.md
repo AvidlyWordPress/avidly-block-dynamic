@@ -11,12 +11,16 @@ Base of mine is created with <a href="https://www.npmjs.com/package/@wordpress/c
 * NodeJS v12.14.1 or later
 
 ## Getting Started
-1. Download avidly-block-dynamic repository to the `/wp-content/plugins/` directory
-2. Rename plugin folder name for your project (use only a-z and -).
+1. Download avidly-block-dynamic folder to the `/wp-content/plugins/` directory
+2. Rename avidly-block-dynamic folder as you like your block to be called (use only a-z and -).
 3. Go to plugin folder with terminal: `cd wp-content/plugins/your-plugin-name`
-4. Run `sh setup.sh` and follow the instructions in terminal. This will run some search and replace functionality for code.
+4. Run `sh setup.sh` and follow the instructions in terminal. After confirmation the setup will run some search and replace functionality for code.
 
-Activate the plugin when you are ready.
+Activate the plugin via WP dashboard Plugins view.
+
+Well done!
+
+Now you can start to develop the base of your block. If you cannot find your block from editor, check does your theme use allowed_block_types and whitelist it there.
 
 ## Nice to know
 
