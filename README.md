@@ -16,7 +16,7 @@ I integrate with Tailwind CSS so that I would be compatible with <a href="https:
 ## Getting Started
 1. Download avidly-block-dynamic repository to the `/wp-content/plugins/` directory
 2. Rename plugin folder name for your project (use only a-z and -).
-3. Go to plugin folder with terminal: `cd app/public/wp-content/plugins/your-plugin-name`
+3. Go to plugin folder with terminal: `cd wp-content/plugins/your-plugin-name`
 4. Run `sh setup.sh` and follow the instructions in terminal. This will run some search and replace functionality for code.
 
 Activate them plugin when you are ready.
@@ -33,8 +33,8 @@ VERY IMPORTANT: Always run production build to compile compressed, production-re
 ### block.json
 - Canonical way to register block types. Read details from <a href="https://developer.wordpress.org/block-editor/reference-guides/block-api/block-metadata/">Block Editor Handbook</a>.
 
-### Translating
-- Go to plugin folder with terminal: `cd app/public/wp-content/plugins/your-plugin-name`
+### Translating with WP CLI
+- Go to plugin folder with terminal: `cd wp-content/plugins/your-plugin-name`
 - Create or update POT file: `npm run make-pot`
 - Open your PO file(s) with PoEdit & update the content from POT file and make your translations changes.
 - Create or update JSON translations file: `npm run make-json`

@@ -6,7 +6,7 @@ default_name="Avidly Dynamic Block"
 default_id="avidly-block-dynamic"
 default_prefix="avidly_block_dynamic"
 default_package="Avidly_Dynamic_Block"
-default_block_name="avidly-block/dynamic"
+default_block_name="avidly/block-dynamic"
 
 # Directories
 basedir="$( cd "$( dirname "$0" )" && pwd )"

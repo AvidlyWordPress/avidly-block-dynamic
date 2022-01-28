@@ -1,6 +1,6 @@
 {
 	"apiVersion": 2,
-	"name": "avidly-block/dynamic",
+	"name": "avidly/block-dynamic",
 	"version": "0.1.0",
 	"title": "Avidly Dynamic Block",
 	"category": "widgets",

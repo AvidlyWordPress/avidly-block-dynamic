@@ -5,8 +5,8 @@ msgstr ""
 "Project-Id-Version: Avidly Dynamic Block 0.1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/avidly-block-"
 "dynamic\n"
-"POT-Creation-Date: 2021-10-08T10:07:21+00:00\n"
-"PO-Revision-Date: 2021-10-08 13:09+0300\n"
+"POT-Creation-Date: 2022-01-28T15:30:34+00:00\n"
+"PO-Revision-Date: 2022-01-28 17:30+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fi\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #. Plugin Name of the plugin
 msgid "Avidly Dynamic Block"
-msgstr "Staattinen lohko"
+msgstr "Dynaaminen lohko"
 
 #. Description of the plugin
 msgid ""
@@ -40,8 +40,8 @@ msgid "Avidly Block – add or edit text below!"
 msgstr "Avidlyn lohko - lisää tai muokkaa tekstiä alla!"
 
 #: build/index.js:1 src/edit.js:55
-msgid "Add your own placeholder text here."
-msgstr "Lisää oma placeholder teksti tähän."
+msgid "Add your own text here."
+msgstr "Lisää oma teksti tähän."
 
 #: block.json
 msgctxt "block title"

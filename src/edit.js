@@ -52,7 +52,7 @@ export default function Edit( props ) {
                 tagName="p"
 				value={ content }
                 onChange={ onChangeContent }
-				placeholder={ __( 'Add your own placeholder text here.', 'avidly-block-dynamic' ) }
+				placeholder={ __( 'Add your own text here.', 'avidly-block-dynamic' ) }
             />
 		</div>
 	);
