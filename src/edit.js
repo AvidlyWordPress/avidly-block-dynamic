@@ -45,7 +45,7 @@ export default function Edit( props ) {
 
 	return (
 		<div { ...useBlockProps() }>
-			<h2 className="mt-0">{ __( 'Avidly Block – add or edit text below!', 'avidly-block-dynamic' ) }</h2>
+			<h2>{ __( 'Avidly Block – add or edit text below!', 'avidly-block-dynamic' ) }</h2>
 			
 			<RichText
                 { ...blockProps }

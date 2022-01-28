@@ -4,10 +4,7 @@ Hi. I'm a block called Avidly Dynamic Block. I'm a example block based on WordPr
 ## Features
 
 ### @wordpress/create-block
-Base of mine is created with <a href="https://www.npmjs.com/package/@wordpress/create-block">@wordpress/create-block</a> and modified to support starter theme and extended translating.
-
-### Tailwind CSS
-I integrate with Tailwind CSS so that I would be compatible with <a href="https://github.com/AvidlyWordPress/avidly-theme">Avidly Theme</a>. Learn <a href="https://tailwindcss.com/docs">how to use Tailwind CSS</a> by reading the documentation.
+Base of mine is created with <a href="https://www.npmjs.com/package/@wordpress/create-block">@wordpress/create-block</a> and I have translation support.
 
 ### Requirements
 * Requires at least WordPress 5.8

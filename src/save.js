@@ -25,7 +25,7 @@ import { useBlockProps } from '@wordpress/block-editor';
 export default function save( props ) {
 	return (
 		<div { ...useBlockProps.save() }>
-			<h2 className="mt-0">{ __( 'Avidly Block – add or edit text below!', 'avidly-block-dynamic' ) }</h2>
+			<h2>{ __( 'Avidly Block – add or edit text below!', 'avidly-block-dynamic' ) }</h2>
 			<p>{ props.attributes.content }</p>
 		</div>
 	);
